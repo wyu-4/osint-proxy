@@ -15,13 +15,11 @@ Alat Python yang cepat dan andal untuk mengumpulkan daftar besar proxy HTTP/S da
 
 ## 🛠️ Instalasi dan Penggunaan
 
-### 1. Prasyarat
+### 1. Hak akses root linux
+
+### 2. Prasyarat
 
 Anda hanya membutuhkan **Python 3** dan **`pip`** yang terinstal di sistem Anda.
-
-### 2. File Skrip
-
-Pastikan Anda memiliki file skrip **`color_proxy_checker.py`** di direktori yang sama.
 
 ### 3. Eksekusi (Disarankan)
 
