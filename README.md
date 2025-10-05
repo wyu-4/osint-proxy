@@ -1,10 +1,4 @@
 Deskripsi
-Pengambilan Proxy Otomatis	Mengambil proxy mentah dari tujuh endpoint GitHub/API yang stabil.
-Validasi Kecepatan Tinggi	Menggunakan threading (50 worker secara default) untuk memvalidasi proxy secara simultan.
-Hanya Proxy Aktif	Hanya proxy yang berhasil terhubung ke target (Google.com) dalam batas waktu yang ditentukan yang disimpan.
-Antarmuka Interaktif	Menggunakan colorama untuk output berwarna dan tqdm untuk bilah kemajuan (progress bar) visual yang threading-safe.
-Instalasi Otomatis	Menginstal semua library Python (requests, colorama, tqdm) secara otomatis dengan opsi paksa (--break-system-packages).
-
 # 🔥 Active Proxy Scraper & Checker (Fast Threaded)
 
 Alat Python yang cepat dan andal untuk mengumpulkan daftar besar proxy HTTP/S dari berbagai sumber daring dan memvalidasi keaktifannya menggunakan *threading*. Hanya proxy yang aktif dan berfungsi yang akan disimpan ke file output.
