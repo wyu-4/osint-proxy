@@ -1,5 +1,3 @@
-Active Proxy Scraper & Checker, sebuah tool Python yang cepat dan andal. Tujuannya adalah untuk mengumpulkan daftar proxy HTTP/S yang besar dari berbagai sumber dan memvalidasi keaktifannya menggunakan threading berkecepatan tinggi. Hanya proxy yang aktif dan berfungsi yang akan disimpan ke file output (proxies.txt).
-
 Deskripsi
 Pengambilan Proxy Otomatis	Mengambil proxy mentah dari tujuh endpoint GitHub/API yang stabil.
 Validasi Kecepatan Tinggi	Menggunakan threading (50 worker secara default) untuk memvalidasi proxy secara simultan.
@@ -38,3 +36,16 @@ Karena skrip akan secara otomatis menginstal dependensi Python dan karena menjal
 ```bash
 # Perintah untuk menjalankan tool:
 sudo python3 color_proxy_checker.py
+```
+### 4. Setelah proses scraping dan validasi selesai, hasilnya akan disimpan di:
+
+proxies.txt: File teks yang hanya berisi daftar proxy yang ditemukan aktif, dengan format IP:PORT (satu proxy per baris).
+
+⚠️ Peringatan Penting (Disclaimer)
+Gunakan Alat Ini Dengan Risiko Anda Sendiri!
+
+Izin sudo: Skrip memerlukan sudo untuk memastikan instalasi dependensi Python berhasil di lingkungan Linux. Selalu berhati-hati saat menjalankan skrip Python dengan hak akses root.
+
+Legalitas Proxy: Proxy yang dikumpulkan dari sumber terbuka daring seringkali ilegal atau tidak etis untuk digunakan dalam aktivitas yang memerlukan izin atau anonimitas penuh. Penulis skrip ini tidak bertanggung jawab atas penggunaan proxy hasil tool ini untuk tujuan ilegal, berbahaya, atau yang melanggar ketentuan layanan situs web mana pun.
+
+Kualitas Proxy: Proxy gratis bersifat sementara. Proxy yang aktif saat divalidasi mungkin mati dalam hitungan jam, menit, atau bahkan detik. Disarankan untuk menggunakan proxy yang baru divalidasi secepat mungkin.
